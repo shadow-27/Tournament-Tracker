@@ -1,0 +1,9 @@
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\netstandard2.0\TrackerLibrary.deps.json
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\netstandard2.0\TrackerLibrary.dll
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\bin\Debug\netstandard2.0\TrackerLibrary.pdb
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\netstandard2.0\TrackerLibrary.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\netstandard2.0\TrackerLibrary.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\netstandard2.0\TrackerLibrary.AssemblyInfo.cs
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\netstandard2.0\TrackerLibrary.dll
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\netstandard2.0\TrackerLibrary.pdb
+C:\Users\HP\source\repos\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\netstandard2.0\TrackerLibrary.csproj.CoreCompileInputs.cache
