@@ -34,7 +34,7 @@ namespace TrackerLibrary1
             {
                 foreach (var rm in round)
                 {
-                    if (rm.Winner==null && (rm.Entries.Any(x => x.Score != 0) || rm.Entries.Count == 1))
+                    if (/*rm.Winner==null && */(rm.Entries.Any(x => x.Score != 0) || rm.Entries.Count == 1))
                     {
                         toScore.Add(rm);
                     }
@@ -79,7 +79,7 @@ namespace TrackerLibrary1
                 else
                 {
                     //1 means true,or high score wins
-                    if (scoreDirection == "0")
+                    if (scoreDirection == "1")
                     {
                         if (m.Entries[0].Score > m.Entries[1].Score)
                         {

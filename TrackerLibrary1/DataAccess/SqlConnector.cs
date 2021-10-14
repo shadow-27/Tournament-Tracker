@@ -43,7 +43,7 @@ namespace TrackerLibrary.DataAccess
 
         }
 
-        //TODO-Make the Create
+        
         //Prize method and actually save the data in the database
         /// <summary>
         /// saves a new prize in the database
@@ -217,11 +217,11 @@ namespace TrackerLibrary.DataAccess
                         {
                             p.Add("TeamCompetingId", null);
                         }
-                        
+                       // p.Add("@Score",entry.Score);
                         p.Add("@id",0,DbType.Int32,ParameterDirection.Output);
 
                         connection.Execute("dbo.MatchupEntries_Insert", p, commandType: CommandType.StoredProcedure);
-
+                        entry.Id = p.Get<int>("@id");
                     }
 
                 }
@@ -337,6 +337,7 @@ namespace TrackerLibrary.DataAccess
                         p.Add("@Score", me.Score);
 
                         connection.Execute("dbo.spMatchupEntries_Update", p, commandType: CommandType.StoredProcedure); 
+                       
                     }
                 }
             }
